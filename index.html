@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <script src="index.js" type="text/javascript" defer></script>
+
+    <title>Ecriptador</title>
+</head>
+<body>
+    <main>
+             <header>
+                 <nav>
+                     <h1 class="titulo">ENCRIPTADOR</h1>
+                     <img class="logo"  src="images/Logo.png" alt="">
+                 </nav>
+             </header>
+      
+            
+            <div class="encriptador">
+                
+                <textarea id="textIn" name="" class="textIn" cols="60" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            
+                <p class="info">&#9432; Solo letras minusculas y sin acentos.</p>
+
+                <div class="botones">
+
+                <input id="btnEncriptar" class="btnEncriptar" type="submit" id="btnEncriptar"  value="Encriptar">    
+
+                <input id="btnDesencriptar"  class="btnDesencriptar" type="submit" id="btnDesencriptar"  value="Desencriptar"> 
+                
+                </div>
+            
+            </div>
+                <div id="desencriptar" class="desencriptar">
+                
+                    <img class="munieco" src="images/Muñeco.png" alt="">
+
+                    <div  class="info3">
+                   
+                    <h2 class="texto">Ningún mensaje fue encontrado </h2>
+                    <p class="texto1">Ingrese el texto que desea encriptar o desencriptar.</p>
+                    </div>
+                
+            </div>
+
+            <div id="desencriptar2"  hidden class="desencriptar2">
+
+                <div  class="info2">
+                    <textarea id="textOut" name="textOut" class="textOut" cols="30" rows="10" ></textarea>
+                    <input id="btnCopiar" class="btnCopiar" type="submit"   value="copiar">  
+                </div>
+                
+            </div>
+        </main>
+        <footer class="rrc">
+            <p > Desarrollado por: Roman Romero C.</p>
+        </footer>
+</body>
+</html>
